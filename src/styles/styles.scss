@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 63px;
+  text-align: center;
+  background-color: #2e4a6552;
+  span {
+    color: #fff;
+    line-height: 60px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}
+
+.site-layout {
+  background: #fff;
+  .site-layout-background {
+    background: #f7f7f7;
+    border-bottom: 1px solid #eee;
+  }
+}
+
+.ant-spin-spinning {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #1111112e;
+  top: 0;
+  span {
+    top: 45%;
+  }
+}
+
+.breadcrumb {
+  margin: 16px 0;
+}
+.text-center {
+  text-align: center;
+}
+.float-right {
+  float: right;
+}
+.float-left {
+  float: left;
+}
+
+.site-layout {
+  .login-layout {
+    padding: 7% 0;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+}
+.cheering-layout {
+  padding: 24px;
+  min-height: calc(100vh - 190px);
+}
+.ant-spin-spinning {
+  background-color: #11111112;
+}
+.pageTitle {
+  margin-bottom: 0 !important;
+  line-height: 50px !important;
+}
+.ant-upload-list.ant-upload-list-text {
+  z-index: 999;
+  position: absolute;
+}
+
+.right-menu {
+  border: none;
+  background: transparent;
+}
